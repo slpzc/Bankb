@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "@components/*": ["components/*"],
+      "@styled/*": ["components/styled/*"],
+      "@pages/*": ["components/pages/*"],
+      "@assets/*": ["assets/*"],
+      "@services/*": ["services/*"],
+      "@store/*": ["store/*"]
+    },
+    "composite": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ESNext",
+    "jsx": "preserve",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "sourceMap": true
+  },
+  "include": ["vite.config.ts"]
+}

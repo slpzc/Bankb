@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": true,
+    "baseUrl": "./src",
+    "target": "ESNext",
+    "experimentalDecorators": true,
+    "jsx": "preserve",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "sourceMap": true,
+    "paths": {
+      "@components/*": ["components/*"],
+      "@styled/*": ["components/styled/*"],
+      "@pages/*": ["components/pages/*"],
+      "@assets/*": ["assets/*"],
+      "@services/*": ["services/*"],
+      "@store/*": ["store/*"]
+    },
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "dist"]
+}
